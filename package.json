@@ -1,0 +1,46 @@
+{
+  "name": "token-service",
+  "version": "1.0.0",
+  "description": "A robust, reusable Node.js service for JWT authentication and token management with MongoDB persistence.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "jwt",
+    "token",
+    "authentication",
+    "mongoose",
+    "mongodb",
+    "access token",
+    "refresh token",
+    "jsonwebtoken",
+    "nodejs",
+    "auth"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --setupFiles ./tests/jest.setup.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "dayjs": "^1.11.13",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jossieT/token-service.git"
+  },
+  "author": "Yosef Teshome <joseteshe2017@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jossieT/token-service/issues"
+  },
+  "homepage": "https://github.com/jossieT/token-service#readme"
+}
