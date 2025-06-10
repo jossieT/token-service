@@ -1,5 +1,5 @@
 {
-  "name": "token-service",
+  "name": "jose-token-service",
   "version": "1.0.0",
   "description": "A robust, reusable Node.js service for JWT authentication and token management with MongoDB persistence.",
   "main": "src/index.js",
